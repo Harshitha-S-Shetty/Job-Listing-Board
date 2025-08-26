@@ -22,7 +22,7 @@ function LogIn() {
  
 
   return (
-    <div style={{backgroundImage:"url('https://img.freepik.com/free-photo/abstract-background-cement-wall-shadow-light-concept_53876-95320.jpg')", backgroundSize: "cover"}}>
+    <div style={{backgroundImage:"url('https://media.istockphoto.com/id/1331579485/vector/background-curved-light-blue.jpg?s=612x612&w=0&k=20&c=Wslr-PIxcQDoxXmzC7_w8rbFM9_s_5Jz99tE3ftNM1A=')", backgroundSize: "cover"}}>
       <form onSubmit={handleSubmit} style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", height: '90vh'}}>
         <h4 style={{color:"gray", marginBottom:"20px", fontWeight:"lighter"}}>Login</h4>
         <div className="form-floating mb-2 mt-3" style={{width: 300}}>

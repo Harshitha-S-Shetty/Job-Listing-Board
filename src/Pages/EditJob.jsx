@@ -115,7 +115,7 @@ function EditJob() {
   },[JobList])
 
   return (
-    <div>
+    <div style={{ backgroundImage: "url('https://media.istockphoto.com/id/1331579485/vector/background-curved-light-blue.jpg?s=612x612&w=0&k=20&c=Wslr-PIxcQDoxXmzC7_w8rbFM9_s_5Jz99tE3ftNM1A=')", backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <h4 style={{ textAlign: "center", fontSize: "25px", marginTop: "10px", marginBottom: "10px" }}>Post a Job</h4>
       <form onSubmit={handleSubmit}>
         <Box
